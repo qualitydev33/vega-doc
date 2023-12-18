@@ -1,0 +1,41 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+
+@font-face {
+  src: url('/static/fonts/SharpGrotesk-Book20.otf') format("opentype");
+  font-family: 'SharpGrotesk-Book';
+  font-weight: normal;      
+  font-display: swap;
+
+}
+
+:root {
+  --ifm-color-primary: #191d3b;
+  --ifm-color-primary-dark: #161a35;
+  --ifm-color-primary-darker: #151932;
+  --ifm-color-primary-darkest: #111429;
+  --ifm-color-primary-light: #1c2041;
+  --ifm-color-primary-lighter: #151932;
+  --ifm-color-primary-lightest: #21264d;
+  --ifm-font-size-base: 85%;
+  --ifm-code-font-size: 85%; 
+  --ifm-font-family-base: 'SharpGrotesk-Book', sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
